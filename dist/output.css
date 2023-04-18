@@ -613,6 +613,8 @@ video {
   font-size: 1.25rem;
   line-height: 1.75rem;
   font-weight: 600;
+  --tw-text-opacity: 1;
+  color: hsl(234 12% 34% / var(--tw-text-opacity));
 }
 
 .technologies__item__description{
@@ -691,8 +693,8 @@ video {
   font-size: 15px;
 }
 
-.font-light{
-  font-weight: 300;
+.font-extralight{
+  font-weight: 200;
 }
 
 .font-semibold{
@@ -706,6 +708,11 @@ video {
 .text-grayishBlue{
   --tw-text-opacity: 1;
   color: hsl(229 6% 66% / var(--tw-text-opacity));
+}
+
+.text-veryDarkBlue{
+  --tw-text-opacity: 1;
+  color: hsl(234 12% 34% / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px){
