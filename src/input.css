@@ -6,7 +6,7 @@
 
 @layer components {
 	.technologies {
-		@apply flex flex-wrap justify-center xl:w-[1152px] w-full xl:gap-8 gap-6 xl:mt-16 mt-20;
+		@apply flex flex-wrap justify-center xl:w-[1152px] w-full xl:gap-8 gap-6 xl:my-16 my-20;
 	}
 
 	.technologies__item {
