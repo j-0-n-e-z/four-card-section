@@ -519,8 +519,8 @@ video {
 }
 
 .technologies{
-  margin-top: 5rem;
   margin-bottom: 5rem;
+  margin-top: 3rem;
   display: flex;
   width: 100%;
   flex-wrap: wrap;
@@ -678,6 +678,20 @@ video {
   padding: 2.25rem;
 }
 
+.p-5{
+  padding: 1.25rem;
+}
+
+.px-5{
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.px-2{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .text-center{
   text-align: center;
 }
@@ -686,13 +700,13 @@ video {
   font-family: Poppins;
 }
 
-.text-2xl{
-  font-size: 1.5rem;
-  line-height: 2rem;
+.text-\[14px\]{
+  font-size: 14px;
 }
 
-.text-\[15px\]{
-  font-size: 15px;
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-extralight{
@@ -738,6 +752,11 @@ video {
 
   .xl\:p-0{
     padding: 0px;
+  }
+
+  .xl\:px-0{
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .xl\:text-4xl{
